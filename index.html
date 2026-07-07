@@ -46,7 +46,8 @@ layout: default
 {%- endif %}
       <br>
       Latest stable:&nbsp;
-      <strong>{{ site.stable_version }}</strong>&nbsp;({{ site.stable_date }})<br>
+      <strong>{{ site.stable_version }}</strong>&nbsp;({{ site.stable_date }})&nbsp;
+      <a href="{{ site.stable_source_url }}"><strong>.tar.gz</strong></a><br>
       Latest development:&nbsp;
       <strong>{% if site.fork %}{{ site.full_version }}{% else %}{{ site.dev_version }}{% endif %}</strong><br>
       Source snapshot:&nbsp;
@@ -64,7 +65,8 @@ layout: default
       <a href="https://github.com/{{ site.repo_slug }}"><strong>Source</strong></a><br>
 {%- endif %}
     </p>
-    <span class="dl-button"><a href="{{ site.dl_url }}" class="readmore-norm">More downloads</a></span>
+    <span class="dl-button"><a href="{{ site.releases_url }}" class="readmore-norm">GitHub Releases</a></span>
+    <span class="dl-button"><a href="{{ site.dl_url }}" class="readmore-norm">SourceForge</a></span>
   </div>
 </div>
 

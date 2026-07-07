@@ -1,9 +1,10 @@
 ---
 - date: 2026-07-07
-  title: <a href="https://github.com/harbour/harbour.github.io">Website refresh and release planning</a>
-  text: The homepage now shows CI build status, the current development
-    version (3.2.0dev), and links to GitHub Releases. Work is underway to
-    publish Harbour 3.2.0 as the next official stable release.
+  title: <a href="https://github.com/harbour/core/releases/tag/v3.2.0">Release 3.2.0</a>
+  text: After fifteen years of development since 3.0.0, Harbour 3.2.0 is now
+    available as an official stable release. Source packages are published on
+    GitHub Releases. The homepage has been updated with CI badges, current
+    version information, and direct download links.
 - date: 2016-10-20
   title: <a href="https://github.com/harbour/core/commit/e9431133c503517e70b4d852fbf24eacac6be630">New logo and further website refresh</a>
   text: The logo received a refresh, dropping "Hb" characters, making it

@@ -8,9 +8,10 @@ site_root: ""
 dl_url: https://sourceforge.net/projects/harbour-project/files/
 releases_url: https://github.com/harbour/core/releases
 short_version: "3.2"
-stable_version: "3.0.0"
-stable_date: "2011-07-17"
-dev_version: "3.2.0dev"
+stable_version: "3.2.0"
+stable_date: "2026-07-07"
+dev_version: "3.2.1dev"
+stable_source_url: https://github.com/harbour/core/releases/download/v3.2.0/harbour-3.2.0.src.tar.gz
 license_file: COPYING.txt
 
 exclude: ['*.pem', '*.sh']

@@ -30,12 +30,12 @@ You can find the latest development sources for Harbour on
 actively maintained; continuous integration runs on Linux, Windows and macOS
 after every push.
 
-Windows nightly binaries are built from the live repository and published on
-[SourceForge]({{ site.dl_url }}). Official releases will be published on
-[GitHub Releases]({{ site.releases_url }}) as they become available.
+The latest stable release is **{{ site.stable_version }}** ({{ site.stable_date }}),
+available on [GitHub Releases]({{ site.releases_url }}).
 
-These packages are _not_ intended for production use; please use the stable
-packages at the download page when available.
+Windows nightly binaries are built from the live repository and published on
+[SourceForge]({{ site.dl_url }}). These development packages are _not_
+intended for production use; for production, use the stable release above.
 {% endif %}
 
 If you do encounter a bug, please test the latest snapshot build to see if it
