@@ -24,12 +24,18 @@ the time solid to use in production. It is worth to keep an eye on the latest
 commits and/or [ChangeLog]({{ site.baseurl }}/changelog{{ site.ilink_suffix }})
 to see if there is any work in progress and what changes to expect.
 {% else %}
-You can find the latest development sources for Harbour directly on our website.
-Source code is checked out of version repository and packaged every night and
-made available along with the binaries built for Windows.
+You can find the latest development sources for Harbour on
+[GitHub](https://github.com/{{ site.repo_slug }}) and on the
+[homepage]({{ site.baseurl }}/#project-status). The source repository is
+actively maintained; continuous integration runs on Linux, Windows and macOS
+after every push.
 
-These packages are _not_ intended for production use; please use the packages at
-the download page.
+Windows nightly binaries are built from the live repository and published on
+[SourceForge]({{ site.dl_url }}). Official releases will be published on
+[GitHub Releases]({{ site.releases_url }}) as they become available.
+
+These packages are _not_ intended for production use; please use the stable
+packages at the download page when available.
 {% endif %}
 
 If you do encounter a bug, please test the latest snapshot build to see if it
@@ -42,5 +48,7 @@ To download latest development sources, go to the
 {% if site.fork %}
 To download snapshot or stable binaries of Harbour, visit [here]({{ site.dl_url }}).
 {% else %}
-To download nightly or stable release of Harbour, visit [here]({{ site.dl_url }}).
+To download nightly or stable release of Harbour, visit
+[SourceForge]({{ site.dl_url }}) or
+[GitHub Releases]({{ site.releases_url }}).
 {% endif %}
